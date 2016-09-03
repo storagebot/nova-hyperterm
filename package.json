@@ -1,0 +1,23 @@
+{
+  "name": "nova-hyperterm",
+  "version": "1.0.0",
+  "description": "Nova HyperTerm color scheme",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevordmiller/nova-hyperterm.git"
+  },
+  "keywords": [
+    "hyperterm",
+    "hyperterm-theme"
+  ],
+  "author": "Trevor D. Miller <trevordmiller@icloud.com> (http://www.trevordmiller.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trevordmiller/nova-hyperterm/issues"
+  },
+  "homepage": "https://github.com/trevordmiller/nova-hyperterm#readme",
+  "dependencies": {
+    "nova-colors": "^1.0.7"
+  }
+}
