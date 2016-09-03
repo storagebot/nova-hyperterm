@@ -26,11 +26,13 @@ exports.decorateConfig = config => Object.assign({}, config, {
     lightWhite: novaColors.bright.white,
   },
   termCSS: `
+    ${config.termCSS},
     .cursor-node {
       opacity: 0.5 !important;
     }
   `,
   css: `
+    ${config.css},
     .tab_first {
       margin-left: 0 !important;
     }
