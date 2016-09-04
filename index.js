@@ -40,7 +40,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
       background-color: ${novaColors.decoration.medium} !important;
     }
     .tab_tab.tab_active {
-      background-color: ${novaColors.normal.black} !important;
+      background-color: ${novaColors.decoration.medium} !important;
       border: none !important;
     }
     .tab_tab.tab_active::before {
@@ -48,6 +48,9 @@ exports.decorateConfig = config => Object.assign({}, config, {
     }
     .tab_text {
       border: none !important;
+    }
+    .tab_textActive {
+      color: ${novaColors.bright.red} !important;
     }
     .tabs_title,
     .tab_textInner {
