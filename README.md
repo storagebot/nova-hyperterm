@@ -1,7 +1,5 @@
 # nova-hyperterm
 
-Nova HyperTerm color scheme
+Nova color scheme plugin for HyperTerm
 
-# Install
-
-Add `nova-hyperterm` to the plugins array in your `~/.hyperterm.js`.
+[trevordmiller.github.io/nova-docs](https://trevordmiller.github.io/nova-docs)
