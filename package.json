@@ -1,6 +1,6 @@
 {
   "name": "nova-hyperterm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Nova HyperTerm color scheme",
   "main": "index.js",
   "repository": {
