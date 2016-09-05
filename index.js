@@ -50,6 +50,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
       border: none !important;
       color: ${novaColors.normal.black} !important;
     }
+    .tabs_title,
     .tab_textActive {
       color: ${novaColors.normal.cyan} !important;
     }
