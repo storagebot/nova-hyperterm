@@ -3,7 +3,7 @@
 const novaColors = require('nova-colors')
 
 exports.decorateConfig = config => Object.assign({}, config, {
-  cursorColor: novaColors.bright.white,
+  cursorColor: novaColors.decoration.dark,
   foregroundColor: novaColors.normal.white,
   backgroundColor: novaColors.normal.black,
   borderColor: novaColors.normal.black,
@@ -28,7 +28,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
   termCSS: `
     ${config.termCSS},
     .cursor-node {
-      opacity: 0.5 !important;
+      opacity: 0.7 !important;
     }
   `,
   css: `
