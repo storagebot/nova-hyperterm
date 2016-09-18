@@ -15,7 +15,7 @@
   },
   "main": "index.js",
   "description": "Nova color scheme plugin for HyperTerm",
-  "homepage": "https://trevordmiller.github.io/nova-docs",
+  "homepage": "https://trevordmiller.github.io/nova",
   "author": "Trevor D. Miller <trevordmiller@icloud.com> (http://www.trevordmiller.com)",
   "license": "MIT",
   "keywords": [
