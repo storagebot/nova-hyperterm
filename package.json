@@ -2,12 +2,11 @@
   "name": "nova-hyperterm",
   "version": "1.4.1",
   "scripts": {
-    "start": "scripts/start",
     "push": "scripts/push",
     "lint": "scripts/lint"
   },
   "dependencies": {
-    "nova-colors": "1.0.8"
+    "nova-colors": "1.2.0"
   },
   "devDependencies": {
     "eslint": "3.5.0",
