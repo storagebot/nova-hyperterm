@@ -1,6 +1,6 @@
 {
   "name": "nova-hyperterm",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "scripts": {
     "push": "scripts/push",
     "lint": "scripts/lint"
