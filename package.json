@@ -6,7 +6,7 @@
     "lint": "scripts/lint"
   },
   "dependencies": {
-    "nova-colors": "1.2.0"
+    "nova-colors": "2.1.1"
   },
   "devDependencies": {
     "eslint": "3.5.0",
