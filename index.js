@@ -1,29 +1,30 @@
 'use strict'
 
-const novaColors = require('nova-colors')
+const uiGroups = require('nova-colors').uiGroups
+const ansiGroups = require('nova-colors').ansiGroups
 
 exports.decorateConfig = config => Object.assign({}, config, {
-  cursorColor: novaColors.normal.cyan,
-  foregroundColor: novaColors.normal.white,
-  backgroundColor: novaColors.normal.black,
-  borderColor: novaColors.normal.black,
+  cursorColor: uiGroups.userCurrentState,
+  foregroundColor: uiGroups.foreground,
+  backgroundColor: uiGroups.background,
+  borderColor: uiGroups.background,
   colors: {
-    black: novaColors.normal.black,
-    red: novaColors.normal.red,
-    green: novaColors.normal.green,
-    yellow: novaColors.normal.yellow,
-    blue: novaColors.normal.blue,
-    magenta: novaColors.normal.magenta,
-    cyan: novaColors.normal.cyan,
-    white: novaColors.normal.white,
-    lightBlack: novaColors.bright.black,
-    lightRed: novaColors.bright.red,
-    lightGreen: novaColors.normal.green,
-    lightYellow: novaColors.normal.yellow,
-    lightBlue: novaColors.normal.blue,
-    lightMagenta: novaColors.bright.magenta,
-    lightCyan: novaColors.normal.cyan,
-    lightWhite: novaColors.bright.white,
+    black: ansiGroups.normal.black,
+    red: ansiGroups.normal.red,
+    green: ansiGroups.normal.green,
+    yellow: ansiGroups.normal.yellow,
+    blue: ansiGroups.normal.blue,
+    magenta: ansiGroups.normal.magenta,
+    cyan: ansiGroups.normal.cyan,
+    white: ansiGroups.normal.white,
+    lightBlack: ansiGroups.bright.black,
+    lightRed: ansiGroups.bright.red,
+    lightGreen: ansiGroups.bright.green,
+    lightYellow: ansiGroups.bright.yellow,
+    lightBlue: ansiGroups.bright.blue,
+    lightMagenta: ansiGroups.bright.magenta,
+    lightCyan: ansiGroups.bright.cyan,
+    lightWhite: ansiGroups.bright.white,
   },
   termCSS: `
     ${config.termCSS},
@@ -37,10 +38,10 @@ exports.decorateConfig = config => Object.assign({}, config, {
       margin-left: 0 !important;
     }
     .tab_tab {
-      background-color: ${novaColors.decoration.medium} !important;
+      background-color: ${uiGroups.gray2} !important;
     }
     .tab_tab.tab_active {
-      background-color: ${novaColors.normal.black} !important;
+      background-color: ${uiGroups.background} !important;
       border: none !important;
     }
     .tab_tab.tab_active::before {
@@ -48,11 +49,11 @@ exports.decorateConfig = config => Object.assign({}, config, {
     }
     .tab_text {
       border: none !important;
-      color: ${novaColors.normal.black} !important;
+      color: ${uiGroups.background} !important;
     }
     .tabs_title,
     .tab_textActive {
-      color: ${novaColors.normal.cyan} !important;
+      color: ${uiGroups.userCurrentState} !important;
     }
     .tabs_title,
     .tab_textInner {
