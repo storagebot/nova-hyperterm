@@ -1,13 +1,13 @@
 language: node_js
 node_js:
-  - "node"
-  - "6"
+- node
+- '6'
 script: npm run lint
 deploy:
   provider: npm
   email: trevordmiller@icloud.com
   api_key:
-    secure: mEAVDslZxgz3ojUMSkZeDe9lNovLR5qssND+VzbpHcatVD0zwh2BX3qo1q23lVHzV54qNeWwTL1x0/wWtGp2g+YWhyBgDrqQEnY3+i/+XNc2+Slo8uIbuCzqiKLgH6N4AR3/TqVIsLwWzEqmOo4CP+5ywYP/5maKiUMiDK0UriKRDPN8Ts3VIYSDrLx7210EfpUD8YGbX6ccQ+tl1fB1jE/DIxPlNLL37nicgZLKb4igWmN2ZAv7XThuNCTN2vzAhEi92oenESzXg75v3PpYfqucTQQ2frnk9DhSGcfdYz3iYTdiwq+/4Gw6TkEa+1Ottk/UkHlp078ibu1SiPmIMnMvwtrpYZnviGuG0tGQ4JChjNoqIZpqjOoaCH661IKtnjUdEzTmQu/+y+h9bw9l6dR0+GD2ejiTsehj2/2wIrnAz9NjCxW2yDKUk7W6le2NhDvzrw+ZRrRB7L8+dgUSTbxw0e7xICLkYVWvHdqHEs21uHrmMOXyC4g8pn+ulCloQxWZxiV52w7GDDr2oUNzEpTbIKHaQk5CjOCzu2hCRZdCP+NOO+whk1WrT9pm8YqrCJk4fh82t5oSLvrhwoJrKoy9tLDvKw0qKgvOuGa6QKxryPebTv1bVWnckYb1RGYRpP8yEVrvoHy8NtsP2DpEPemr8ymq9XuTYsTpcYWuoRs=
+    secure: dgNdq5lkjimtsAsxl4SCscZQRC4RyUYcosiGJPrLGvikzbPpaJ/rvMI26nrkr7EgCR+MdRRBYvIS7SVi+/uyOmM+FaRnxbLufhziJ7rdUKEZh7eezt7O/52Z255Loj18H5hgcz9Qgvs+pqIC0ZeqjzWZgZwGqAP7r97Nlipr6sKz45bBHqJwaxjIC+YKRDuWWwFuc5oBDb+cmf323lzz/qYb1NXFDNGC8jRwCc6GY158hfD4c5FNHwNANE3F6MWACVDO7RC/tarsVcRMKNpF40xTQF+0NnDRiVNPA0N8a2m+Bq8L3n1P+S/9TJwmkDmKGurIA6nzA8clNwu1u37IylO4C1NkDdWXCdoL3Nr7HQ6R0gkxVoSdoukuYO2LT75ppw4KMnDcTKZlCDgvPadOHWe/yWodzDcAmNGr9bUV1nz0ejCjlQ3O1qbz653GCmZo7DyxvQIrOsDgukDgj6j6C7SiCY4CjvaIFXFX4vn6i8aRuZtFMHN9AztwgL5sW20VKAM98jO6eN73s9POasbMbqfuL5BkSkSVELJiuZGD7pd4hLof/brgw04d8UYrVvrRLKX7nUoa/Y0wd4j+J6WNKTqohJPCDuhDK+aRFGm+EeKTGp15M6I+Sck9vS5pQnVhu/y12Uyfuv+FcrCX23tSFlXK+QMz9ZZ7xmqQwil4snw=
   on:
     repo: trevordmiller/nova-hyperterm
     branch: master
