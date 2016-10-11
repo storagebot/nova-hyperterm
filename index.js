@@ -38,7 +38,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
       margin-left: 0 !important;
     }
     .tab_tab {
-      background-color: ${uiGroups.gray2} !important;
+      background-color: ${uiGroups.gray4} !important;
     }
     .tab_tab.tab_active {
       background-color: ${uiGroups.background} !important;
@@ -59,6 +59,10 @@ exports.decorateConfig = config => Object.assign({}, config, {
     .tab_textInner {
       font-size: 14px !important;
       font-weight: bold !important;
+    }
+    .splitpane_divider {
+      background: ${uiGroups.gray2} !important;
+      border-color: ${uiGroups.background} !important;
     }
   `,
 })
