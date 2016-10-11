@@ -38,7 +38,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
       margin-left: 0 !important;
     }
     .tab_tab {
-      background-color: ${uiGroups.gray2} !important;
+      background-color: ${uiGroups.gray4} !important;
     }
     .tab_tab.tab_active {
       background-color: ${uiGroups.background} !important;
