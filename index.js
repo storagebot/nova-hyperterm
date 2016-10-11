@@ -60,5 +60,9 @@ exports.decorateConfig = config => Object.assign({}, config, {
       font-size: 14px !important;
       font-weight: bold !important;
     }
+    .splitpane_divider {
+      background: ${uiGroups.gray2} !important;
+      border-color: ${uiGroups.background} !important;
+    }
   `,
 })
