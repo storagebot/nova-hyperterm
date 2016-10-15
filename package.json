@@ -2,17 +2,20 @@
   "name": "nova-hyperterm",
   "version": "2.1.1",
   "scripts": {
-    "push": "scripts/push",
-    "lint": "scripts/lint"
+    "start": "scripts/start",
+    "build": "scripts/build",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "nova-colors": "2.1.4"
   },
   "devDependencies": {
+    "babel-cli": "6.16.0",
+    "babel-preset-latest": "6.16.0",
     "eslint": "3.5.0",
     "watch": "0.19.2"
   },
-  "main": "index.js",
+  "main": "build/index.js",
   "description": "Nova color scheme plugin for HyperTerm",
   "homepage": "https://trevordmiller.github.io/nova",
   "author": "Trevor D. Miller <trevordmiller@icloud.com> (http://www.trevordmiller.com)",
