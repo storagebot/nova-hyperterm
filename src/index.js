@@ -1,7 +1,4 @@
-'use strict'
-
-const uiGroups = require('nova-colors').uiGroups
-const ansiGroups = require('nova-colors').ansiGroups
+import {uiGroups, ansiGroups} from 'nova-colors'
 
 exports.decorateConfig = config => Object.assign({}, config, {
   cursorColor: uiGroups.userCurrentState,
